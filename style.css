@@ -104,42 +104,51 @@ button{
 h5{
     text-size-adjust: 60px;
 }
-@media only screen and (max-width:600px){
-    .container{
-        width: 100px;
-        display: block;
-        padding: 50px; 
-    
-    }
-.navbar{
-        width: 100%;
+
+@media only screen and (max-width:800px){
+    .navbar{
         display: flex;
+        position: absolute;
     }
     nav ul li{
-        padding: 5px;
+        display: block;
+        align-items: right;
+        justify-content: right;
     }
-}
- @media only screen and (max-width:400px){ 
     .icon{
-        display: inline-block;
-        position: absolute;
-        top: 10px;
-        right: 20px;
-    }
-    .text{
-        display:flex;
-        
-    }
-
-    .col col2 {
         position: relative;
-        margin-right: 2000px;
-        margin-top: 1600px;
-        display: inline-block;
-    
-        
-        
     }
+    h1{
+        font-size: 50px;
+    }
+    
+   .col{
+       width: 300px;
+       top: 150px;
+       display: inline-block;
+       position: absolute;
+   }
+   .card {
+       margin-top: 200px;
+       display: inline-block;
+       position: absolute;
+       
+       
+   }
+   .card1{
+   
+       margin-top: 300px;
+       
+   } 
+   .card2{
+       margin-top: 520px;
+   }
+   .card3{
+       margin-top: 750px;
+   }
+   .card4{
+       margin-top: 970px;
+   }
 }
     
      
